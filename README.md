@@ -6,7 +6,7 @@
   * Ensure you have Docker and Kubernetes installed and configured.
 
 ## Docker Containerization: 
-  * create a Dockerfile, build the Docker image, and push it to a Dockerhub(used here) for this Gym Workout Tracker application.
+  * Create a Dockerfile, build the Docker image, and push it to a Dockerhub(used here) for this Gym Workout Tracker application.
 
 ## Kubernetes Deployment: 
   * Deploy Gym Workout Tracker to Kubernetes by defining Kubernetes YAML files for deployment, services. Configure scaling, auto-healing of the application to meet varying traffic demands, ensuring high availability and reliability.
