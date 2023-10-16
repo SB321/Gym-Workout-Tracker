@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: gym-app-pod
+  labels:
+    app: gym-app
+spec:
+  containers:
+    - name: gym-app
+      image: swastikb/gym-tracker-app:latest
+      ports:
+        - containerPort: 8000
